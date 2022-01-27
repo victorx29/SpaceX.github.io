@@ -1,0 +1,70 @@
+#logo{
+    width: 210px;
+    height: 27px;
+}
+
+header{
+    padding:0 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+    height: 0;
+}
+
+.ilheader{
+    padding-top: 20px;
+    display: inline-block;
+}
+
+body{
+    background-color: gray;
+    margin:0;
+}
+
+.ilmenu{
+    display: inline-block;
+    font-family: Arial, verdana, sans-serif;
+    font-size: 14px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: solid white;
+
+}
+
+#menuRight{
+    float: right;
+}
+
+.ilmenu:hover{
+    transition-duration: 2s;
+    transition-property: border-bottom;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    border-bottom: solid white 2px;
+}
+
+.artPrincipales{
+    height: 100vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#art1{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2022/sl4-6/post-launch/HOMEPAGE-DESKTOP_Starlink_4-6.webp);
+}
+#art2{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2022/transporter-3/post-launch/DESKTOP_Transporter3_HOMEPAGE.webp);
+}
+#art3{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2022/crs-24-return/CRS24_Homepage_DESKTOP.webp);
+}
+#art4{
+    background-image: url(https://www.spacex.com/static/images/ixpe/post/DESKTOP_IXPE_post-launch_homepage.webp);
+}
+#art5{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp);
+}
